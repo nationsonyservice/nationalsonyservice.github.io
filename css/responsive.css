@@ -399,3 +399,13 @@
     float: left !important;
   }
 }
+
+@media screen and ( min-width: 320px ) and ( max-width: 600px ) {
+  #carousel-area img {
+    height: 300px;
+  }
+
+  #carousel-area .carousel-indicators {
+    display: none;
+  }
+}
