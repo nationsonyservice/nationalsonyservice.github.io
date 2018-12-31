@@ -240,7 +240,7 @@
     background: #fff !important;
   }
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
-    margin: 12px 15px;
+    margin: 12px 5px;
   }
   .navbar-expand-md .navbar-nav .active > .nav-link, .navbar-expand-md .navbar-nav .nav-link.active, .navbar-expand-md .navbar-nav .nav-link.active::before, .navbar-expand-md .navbar-nav .nav-link.open, .navbar-expand-md .navbar-nav .open > .nav-link {
     background: #f1f1f1;
@@ -281,10 +281,10 @@
     font-size: 11px;
   }
   #carousel-area .carousel-item .carousel-caption .btn {
-    margin: 10px 15px;
-    padding: 7px 16px;
+    margin: 10px 5px;
+    padding: 5px 10px;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 14px;
   }
   #carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i {
     background: transparent !important;
@@ -402,10 +402,17 @@
 
 @media screen and ( min-width: 320px ) and ( max-width: 600px ) {
   #carousel-area img {
-    height: 300px;
+    width: 150%;
   }
 
   #carousel-area .carousel-indicators {
     display: none;
   }
+
+  #carousel-area {
+    margin-top: 75px;  }
+}
+
+#carousel-area .carousel-item .carousel-caption {
+  top: 5%;
 }
