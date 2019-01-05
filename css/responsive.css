@@ -410,9 +410,10 @@
   }
 
   #carousel-area {
-    margin-top: 75px;  }
+    margin-top: 75px;  
 }
 
 #carousel-area .carousel-item .carousel-caption {
   top: 5%;
+ }
 }
