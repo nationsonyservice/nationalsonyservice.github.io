@@ -1078,6 +1078,11 @@
             justify-content: center
         }
 
+        .service-item h4 {
+                margin-bottom: 0;
+                margin-left: 20px;
+        }
+
         #navbar {
             background: #222328;
             box-shadow: 0 1px 2px rgba(0, 0, 0, .05)
@@ -1181,15 +1186,15 @@
 
         .service-item {
             position: relative;
-            padding-left: 80px
+            padding-left: 80px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
         }
 
         .service-item i {
-            position: absolute;
-            left: 0;
-            top: 5px;
             font-size: 50px;
-            opacity: .4
+            opacity: .6;
         }
 
         .cta {
@@ -1340,7 +1345,7 @@
             }
 
             .service-item h4 {
-                margin-bottom: 10px;
+                margin-bottom: 0;
             }
 
             .footer-btm {
@@ -1349,7 +1354,11 @@
             }
 
             .service-item {
-                padding-left: 50px;
+                padding-left: 0;
+            }
+
+            .service-item.last {
+                margin-bottom: 0;
             }
 
             .counter-item .counter-stat {
@@ -1718,33 +1727,33 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="service-item mb-45"><i class="ti-settings"></i>
-                            <h4 class="mb-3">Washing Machine</h4>
+                        <div class="service-item"><i class="ti-settings"></i>
+                            <h4>Washing Machine</h4>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="service-item mb-45"><i class="ti-settings"></i>
-                            <h4 class="mb-3">Refrigerator</h4>
+                        <div class="service-item"><i class="ti-settings"></i>
+                            <h4>Refrigerator</h4>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="service-item mb-45"><i class="ti-settings"></i>
-                            <h4 class="mb-3">Microwave</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="service-item mb-45 mb-lg-0"><i class="ti-settings"></i>
-                            <h4 class="mb-3">TV / LED / LCD</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="service-item mb-45 mb-lg-0"><i class="ti-settings"></i>
-                            <h4 class="mb-3">Air Conditioner</h4>
+                        <div class="service-item"><i class="ti-settings"></i>
+                            <h4>Microwave</h4>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="service-item mb-lg-0"><i class="ti-settings"></i>
-                            <h4 class="mb-3" style="margin-bottom: 0;">Dish Washer</h4>
+                            <h4>TV / LED / LCD</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="service-item mb-45 mb-lg-0"><i class="ti-settings"></i>
+                            <h4>Air Conditioner</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="service-item mb-lg-0 last"><i class="ti-settings"></i>
+                            <h4 style="margin-bottom: 0;">Dish Washer</h4>
                         </div>
                     </div>
                 </div>
