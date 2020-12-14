@@ -68,6 +68,10 @@ p {
     line-height: 30px
 }
 
+.intro-text {
+    font-size: 22px;
+    line-height: 1.6;
+}
 .btn {
     display: inline-block;
     font-size: 14px;
@@ -471,6 +475,10 @@ a:focus {
 @media (max-width:768px) {
     .navbar-toggler {
         color: #fff
+    }
+
+    .intro-text {
+        font-size: 17px;
     }
     .bg-about {
         display: none
