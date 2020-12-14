@@ -71,6 +71,7 @@ p {
 .intro-text {
     font-size: 22px;
     line-height: 1.6;
+    font-weight: normal;
 }
 .btn {
     display: inline-block;
