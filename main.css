@@ -912,6 +912,12 @@ a:focus {
     padding: 120px 0
 }
 
+.intro-text {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+
 .testimonial-item {
     padding: 50px 30px;
     background: #f5f8f9;
@@ -1170,6 +1176,11 @@ a:focus {
         font-size: 30px;
         line-height: 160%;
     }
+
+    .intro-text {
+        font-size: 17px;
+    }
+    
     .navbar-toggler {
         color: #fff
     }
