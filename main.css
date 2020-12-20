@@ -758,9 +758,10 @@ a:focus {
     justify-content: center
 }
 
-.service-item h4 {
+.service-item h3 {
     margin-bottom: 0;
     margin-left: 20px;
+    font-size: 20px;
 }
 
 .navigation {
@@ -771,11 +772,10 @@ a:focus {
 }
 
 .navigation a {
-    color: #919194;
+    color: #fdad75;
     font-size: 18px;
     padding: 8px 0;
     margin-left: 35px;
-    color: #919194;
     font-style: normal;
 }
 
@@ -784,7 +784,8 @@ a:focus {
 }
 
 .navigation a span {
-    color: #fff
+    color: #fff;
+    font-weight: 500;
 }
 
 .block {
@@ -1025,7 +1026,7 @@ a:focus {
     .service-item i {
         font-size: 30px;
     }
-    .service-item h4 {
+    .service-item h3 {
         margin-bottom: 0;
     }
     .footer-btm {
@@ -1159,7 +1160,7 @@ a:focus {
     }
 
     .slider .block h2 {
-        font-size: 30px;
+        font-size: 17px;
         line-height: 160%;
     }
 
