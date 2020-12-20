@@ -196,34 +196,15 @@ h6 {
 }
 
 .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
+    width: 90%;
+    margin: 0 auto;
 }
 
-@media (min-width:576px) {
-    .container {
-        max-width: 540px
-    }
-}
 
-@media (min-width:768px) {
-    .container {
-        max-width: 720px
-    }
-}
-
-@media (min-width:992px) {
-    .container {
-        max-width: 960px
-    }
-}
 
 @media (min-width:1200px) {
     .container {
-        max-width: 1140px
+        width: 80%;
     }
 }
 
@@ -440,16 +421,6 @@ h6 {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.5rem;
-    line-height: inherit;
-    white-space: nowrap
 }
 
 @media (min-width:992px) {
@@ -792,40 +763,47 @@ a:focus {
     margin-left: 20px;
 }
 
-#navbar {
-    background: #222328;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .05)
-}
-
-.header-top {
+.navigation {
     background: #222328;
     color: #919194;
-    border-bottom: 1px solid rgba(255, 255, 255, .05)
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+    padding: 10px 0;
 }
 
-.header-top .header-top-info {
+.navigation a {
     color: #919194;
     font-size: 18px;
-    padding: 8px 0
+    padding: 8px 0;
+    margin-left: 35px;
+    color: #919194;
+    font-style: normal;
 }
 
-.header-top .header-top-info a span {
+.navigation a:first-child {
+    margin-left: 0;
+}
+
+.navigation a span {
     color: #fff
 }
 
-.header-top .header-top-info a {
-    margin-left: 35px;
-    color: #919194
+.block {
+    position: relative;
 }
 
-.navbar-brand {
+.block h1,
+.block p {
     color: #fff;
-    font-weight: 600;
-    letter-spacing: 1px
+    line-height: 1.6;
 }
 
-.navbar-brand span {
-    color: #f75757
+.block h1 {
+    font-size: 70px;
+}
+
+.block p {
+    font-size: 26px;
+    width: 64%;
 }
 
 .slider {
@@ -979,10 +957,6 @@ a:focus {
     .navbar-toggler {
         color: #fff
     }
-    .slider .block h1 {
-        font-size: 28px;
-        line-height: 40px
-    }
     .slider {
         padding: 126px 0 151px 0
     }
@@ -1121,10 +1095,7 @@ a:focus {
     .navbar-toggler {
         color: #fff
     }
-    .slider .block h1 {
-        font-size: 38px;
-        line-height: 50px
-    }
+
     .slider {
         padding: 100px 0 100px 0;
         background-position: center
@@ -1174,6 +1145,21 @@ a:focus {
 }
 
 @media (max-width:768px) {
+
+    .navigation a {
+        display: block;
+        margin: 0;
+        padding: 5px 0;
+    }
+    .block h1 {
+        font-size: 36px;
+    }
+
+    .block p {
+        width: 90%;
+        font-size: 18px;
+    }
+
     .slider .block h2 {
         font-size: 30px;
         line-height: 160%;
@@ -1195,10 +1181,7 @@ a:focus {
     .footer-socials li a {
         margin-left: 0
     }
-    .slider .block h1 {
-        font-size: 36px;
-        line-height: 1.4
-    }
+
     .blog-item-meta span {
         display: block;
         margin: 6px 0
