@@ -442,7 +442,7 @@ h6 {
 }
 
 .border-top {
-    border-top: 1px solid #dee2e6
+    padding-top: 0!important;
 }
 
 .rounded {
@@ -1152,6 +1152,10 @@ a:focus {
     .block h2 {
         width: 90%;
         font-size: 18px;
+    }
+
+    .border-top {
+        padding: 50px 0!important;
     }
 
     .slider .block h2 {
